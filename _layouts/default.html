@@ -1,16 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "fr" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'fr-FR' }}">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    {% include preload.html %}
+    {% include css.html %}
     {% include seo.html %}
-
-    <!-- Preload -->
-    <link rel="preload" href="/assets/css/main.css" as="style">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="/assets/css/main.css">
   </head>
   <body>
     {% include header.html %}
@@ -19,5 +14,6 @@
     </main>
     {% include footer.html %}
     {% include cookie-banner.html %}
+    {% include js.html %}
   </body>
 </html>
