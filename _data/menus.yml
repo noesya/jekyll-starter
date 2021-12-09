@@ -1,12 +1,8 @@
 primary:
-  - title: Home
+  - title: Accueil
     url: /
-  - title: About
-    url: /about
 legal:
   - title: Mentions légales
     url: /mentions-legales
-  - title: Politique de confidentialité
-    url: /politique-de-confidentialite
   - title: Gestion des cookies
     url: /gestion-des-cookies
